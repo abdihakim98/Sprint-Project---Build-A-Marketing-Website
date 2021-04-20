@@ -11,3 +11,24 @@
 5. Console.log the result.
 
 */
+const firstNum = parseInt(prompt("Enter First Number"))
+const operator = prompt("Enter operator")
+const secondNum = parseInt(prompt("Enter second number"))
+if(operator === "+") {
+    console.log(firstNum + secondNum)
+}
+
+else if (operator === '-') {
+   console.log(firstNum - secondNum)
+}
+
+else if (operator === '*') {
+    console.log(firstNum * secondNum)
+ }
+
+
+ else if (operator === '/') {
+    console.log(firstNum / secondNum)
+ }
+
+ 

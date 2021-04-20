@@ -1,10 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-
-/* Reset CSS */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,6 +50,14 @@ table {
   box-sizing: border-box;
 }
 
+.hero {
+
+  width: 100%;
+  height: 300px;
+
+
+}
+
 html {
   font-size: 62.5%;
 }
@@ -65,13 +67,17 @@ html, body {
   color: black;
 }
 
-h1, h2, h3, h4, h5 {
+h3 {
   font-family: sans-serif;
   color: black;
 }
 
 h2 {
   font-size: 3.2rem;
+  text-align: center;
+  padding: 3rem;
+  margin: 0 1rem;
+
 }
 
 h3 {
@@ -79,15 +85,17 @@ h3 {
 }
 
 p {
-  font-size: 1.6rem;
-  line-height: 1.4;
+  font-size: 1.2rem;
+
 }
+
 
 .container {
   max-width: 100%;
   width: 100%;
   margin: 0 auto;  
 }
+
 
 .attraction-images {
     display: flex;
@@ -135,4 +143,147 @@ p {
 .visit-africa .visit-form {
     width: 46%;
       margin-left: 4%;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    margin: 15px;
+    height: 35px;
+    width: 10%;
+    align-items: center;
+    padding: 5px;
+   }
+
+.nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+
+nav {
+   display: flex;
+   align-items: center;
+   margin-top: 15px;
+   margin: 0px;
+
+}
+
+nav a {
+  padding: 10px;
+  color: black;
+  margin-left: 10px;
+  text-decoration: none;
+
+}
+
+hero-img {
+        display: none;
+        margin-top: 2rem 0;
+}
+
+section {
+    margin: 0 1rem;
+    
+}
+
+section div {
+  margin: 2rem 0;
+
+}
+
+section p {
+  font-size: 2rem;
+  margin: 0;
+  
+}
+.btn{
+
+  width: 35%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 10px;
+  background-color: tomato;
+
+}
+
+button {
+  background-color: lightcoral;
+  border-radius: 10px;
+  padding: 10px; 
+  border: 1px solid
+  
+}
+
+.plan {
+  text-align: center;
+  font-size: 0.8rem;
+  background-color: tomato;
+  padding: 2.1875rem 0;
+
+}
+
+form input{
+    box-sizing: border-box;
+    margin-top: 20px;
+    font-size: 30px;
+    padding: 10px;
+
+
+}
+
+.submit{
+    background-color: tomato;
+    border-radius: 5px;
+    padding: 5px;
+    margin:   auto;
+    font-size: 10px;
+    margin-top:   20px;
+    width: 40%
+   
+
+}
+
+
+footer  {
+  text-align: center;
+  font-size: 10px;
+  background-color: tomato;
+  padding: 10px;
+
+
+}
+
+.visit-form {
+  box-sizing: border-box;
+  margin-top: 100px;
+  border-radius: 5px;
+  
+
+}
+
+.foam {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+@media (max-width800px) {
+    .nav {
+      flex-direction: column;
+}
+
+    nav  {
+      flex-direction: column;
+      margin-top: 0px;
+    }
+     
 }
