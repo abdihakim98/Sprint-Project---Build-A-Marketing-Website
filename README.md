@@ -1,4 +1,4 @@
-# Sprint Project: Build A Marketing Website
+zz# Sprint Project: Build A Marketing Website
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
 
@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+*Semantically correct HTML helps search engines, screen readers, and other user devices determine the significance and context of web content.
+
 2. What are the 4 areas of the box model?
+
+*Every box is composed of four parts (or areas), defined by their respective edges: the content edge, padding edge, border edge, and margin edge.
 
 3. What command do you use in git to copy files from Github?
 
+*git clone
+
 4. Explain why git is valuable to a team of developers.
 
+*Git offers the type of performance, functionality, security, and flexibility that most developers and teams need to develop their projects. When compared to other VCS Git is the most widely accepted system owing to its universally accepted usability and performance standards.
+
 5. What is the difference between Git and Github?.
+
+*Git is a version control system that lets you manage and keep track of your source code history. GitHub is a cloud-based hosting service that lets you manage Git repositories.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Project grade. Skipping this section *will* prevent you from passing this challenge.
 
